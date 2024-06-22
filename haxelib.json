@@ -1,0 +1,14 @@
+{
+  "contributors": ["MKI"],
+  "version": "1.1.0",
+  "license": "MIT",
+  "tags": [],
+  "releasenote": "1.0",
+  "classPath": "source",
+  "dependencies": {
+    "kawaii": ""
+  },
+  "name": "kawaiifunkin",
+  "description": "Kawaii funkin",
+  "url": "https://mki.sh"
+}

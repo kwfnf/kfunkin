@@ -1,0 +1,8 @@
+-L kawaiifunkin
+
+--class-path src
+--main TestMod
+
+-D dll_import=./export_classes.info
+
+--cppia bin/mod.cppia

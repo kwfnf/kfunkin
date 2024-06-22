@@ -1,0 +1,42 @@
+# ! ----------------- Haxe ----------------- ! #
+# Class path
+--class-path source
+
+# Main class
+--main Main
+
+# No deprecation warnings
+-D no-deprecation-warnings
+
+# CPPIA
+-D scriptable
+
+#! ----------------- Kawaii ----------------- ! #
+# Include framework
+-L kawaii
+
+-L hxcpp-debug-server
+
+--debug
+
+# BGFX
+--macro include('debugdraw', true) 
+--macro include('nanovg', true) 
+--macro include('bgfx', true)
+--macro include('bimg', true)
+
+# No DCE
+--dce no
+
+# Export class info
+-D dll_export=./export_classes.info
+
+# ! ----------------- HXCPP ----------------- ! #
+# Enable stack trace (NOTE: has peformance impact, but can be useful for debugging)
+-D HXCPP_STACK_TRACE
+
+# 64-bit target
+-D HXCPP_M64
+
+# Output directory
+--cpp tmp/cpp
