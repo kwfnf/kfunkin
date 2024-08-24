@@ -21,7 +21,7 @@ class ClassRegistryItem<T> {
 	 * @return The class of the item
 	 */
 	public inline function getClass():Class<T> {
-		return defaultClass;
+		return currentClass;
 	}
 
 	/**
